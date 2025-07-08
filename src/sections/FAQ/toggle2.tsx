@@ -25,9 +25,9 @@ function ToggleComp({mainText,extraText}:ToogleProp){
   }, [isOpen]);         
 
   return (
-    <div className="max-w-lg  py-4 shadow-2xl">
+    <div className="max-w-lg  py-4 shadow-md">
       <div className="flex items-center flex-row-reverse justify-between">
-        <div className="bg-[#2E3192] rounded-full flex items-center justify-center p-2">
+        <div className="bg-[#2E3192] rounded-full flex items-center justify-center p-2 mr-2">
             <button 
             onClick={handleToggle}
             className="focus:outline-none text-white  transition-transform duration-200"
